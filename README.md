@@ -11,7 +11,7 @@ pandas
 # Data Prepare:
 1.This project utilizes the open-source Vessel and Lung Masks and lung masks provided by AANet, and we sincerely appreciate the authors' contribution to the community. In this repository, the dataset is organized under the directory IVT-PENet/PEData/CAD_PE_data/vessel. The vessel masks are named following the format {ID}.nii.gz (e.g., 001.nii.gz), while the lung masks are named {ID}_lungmask.nii.gz (e.g., 001_lungmask.nii.gz). If you use these vessel or lung annotations in your research, please ensure to cite both the original AANet paper and our IVT-PENet work.
 
-2.Download CAD-PE dataset from https://ieee-dataport.org/open-access/cad-pe Put CTPA images, e.g. 001.nrrd, in ‘IVT-PENet/PEData/CAD_PE_data/image’. Put PE labels, e.g. 001RefStd.nrrd, in ‘IVT=PENet/PEData/CAD_PE_data/label’.
+2.Download CAD-PE dataset from https://ieee-dataport.org/open-access/cad-pe Put CTPA images, e.g. 001.nrrd, in ‘IVT-PENet/PEData/CAD_PE_data/image’. Put PE labels, e.g. 001RefStd.nrrd, in ‘IVT-PENet/PEData/CAD_PE_data/label’.
 
 3.Run nifty_preprocess.py to preprocess data. The code will use lung masks to crop the lung region ROI in the CTPA images and labels, and save them back to nifty file in ‘./PEData/processed_itk’. The image size will be smaller for faster loading in training.
 # Training and Inference:
