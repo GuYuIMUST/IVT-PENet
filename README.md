@@ -1,7 +1,7 @@
 # IVT-PENet
 An Information-Gated and Variance-Enhanced U-Net with Direction-Aware Positional Encoding and Channel-Spatial Transformer for Pulmonary Embolism Segmentation and Detection
 
-![image](https://github.com/GuYuIMUST/IVT-PENet/blob/ea8f294401d0365d70b3b0036c34764327bfa250/images/%E5%9B%BE%E7%89%871.png)
+![image](https://github.com/GuYuIMUST/IVT-PENet/blob/1b946317d48200d2f80a26a61233d41f4b062a48/images/figure1.png)
 # Requirements
 pytoch==2.0.0 Newer version may need code adaptation.
 simpleitk
