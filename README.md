@@ -59,6 +59,17 @@ Sensitivity of different network models at ε=0, 2,and5 mm
 | TSNet | 0.761 | 0.85 | 0.878 |
 | **IVT-PENet (Ours)** | **0.815** | **0.895** | **0.911** |
 
+Comparison of Dice and HD95 values across different segmentation networks
+| Model | Dice | HD95 |
+|------|------------------|------------------|
+| TransUNet | 69.98 | 25.15±29.7 |
+| Swin Unet | 67.49 | 16.56±36.13 |
+| UNet++ | 79.25 | 14.35±19.42 |
+| AANet | 77.86 | 11.60±15.77 |
+| CHWS-UNet | 80.59 | 21.60±24.31 |
+| TSNet | 82.57 | 19.69±25.54 |
+| **IVT-PENet (Ours)** | **83.30** | **5.44±7.15** |
+
 # Data Prepare:
 1.This project utilizes the open-source Vessel and Lung Masks and lung masks provided by AANet, and we sincerely appreciate the authors' contribution to the community. In this repository, the dataset is organized under the directory IVT-PENet/PEData/CAD_PE_data/vessel. The vessel masks are named following the format {ID}.nii.gz (e.g., 001.nii.gz), while the lung masks are named {ID}_lungmask.nii.gz (e.g., 001_lungmask.nii.gz). If you use these vessel or lung annotations in your research, please ensure to cite both the original AANet paper and our IVT-PENet work.
 
