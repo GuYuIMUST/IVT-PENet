@@ -70,6 +70,10 @@ Comparison of Dice and HD95 values across different segmentation networks
 | TSNet | 82.57 | 19.69±25.54 |
 | **IVT-PENet (Ours)** | **83.30** | **5.44±7.15** |
 
+Attention Heatmaps of CSAT
+
+![image](https://github.com/GuYuIMUST/IVT-PENet/blob/ccb9a4871515a19e62be63244cfe7153b9795af9/figure/fig2.jpg)
+
 # Data Prepare:
 1.This project utilizes the open-source Vessel and Lung Masks and lung masks provided by AANet, and we sincerely appreciate the authors' contribution to the community. In this repository, the dataset is organized under the directory IVT-PENet/PEData/CAD_PE_data/vessel. The vessel masks are named following the format {ID}.nii.gz (e.g., 001.nii.gz), while the lung masks are named {ID}_lungmask.nii.gz (e.g., 001_lungmask.nii.gz). If you use these vessel or lung annotations in your research, please ensure to cite both the original AANet paper and our IVT-PENet work.
 
