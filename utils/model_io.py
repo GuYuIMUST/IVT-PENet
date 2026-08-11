@@ -6,7 +6,7 @@ import torch.nn as nn
 version = torch.__version__
 
 
-def DeParrallel(state_dict, exclude_name='Gooddd#'):#处理从数据并行模型（DataParallel）中保存的权重
+def DeParrallel(state_dict, exclude_name='Gooddd#'):
     new_state_dict = OrderedDict()
     for k, v in state_dict.items():
         name = k.replace('module.', '')  # remove 'module.' of dataparallel
@@ -16,7 +16,7 @@ def DeParrallel(state_dict, exclude_name='Gooddd#'):#处理从数据并行模型
     return new_state_dict
 
 
-def ToSparseDict(state_dict, spconv_version):#将模型权重字典中的张量转换为稀疏格式
+def ToSparseDict(state_dict, spconv_version):
     new_state_dict = OrderedDict()
     if spconv_version == 1:
         for name, tensor in state_dict.items():
@@ -42,7 +42,7 @@ def ToSparseDict(state_dict, spconv_version):#将模型权重字典中的张量�
     return new_state_dict
 
 
-def SparseDictV2V1(state_dict):#将 spconv 版本 2 的权重字典转换为版本 1 的格式
+def SparseDictV2V1(state_dict):
     new_state_dict = OrderedDict()
     for name, tensor in state_dict.items():
         if 'up' in name and len(tensor.shape) == 5:  # transposedconv
@@ -55,7 +55,7 @@ def SparseDictV2V1(state_dict):#将 spconv 版本 2 的权重字典转换为版�
     return new_state_dict
 
 
-def Save(state_dict, path):#用于保存模型权重
+def Save(state_dict, path):
     state_dict = DeParrallel(state_dict, '###')
     if version[2] > '5':
         torch.save(state_dict, path, _use_new_zipfile_serialization=False)
@@ -63,7 +63,7 @@ def Save(state_dict, path):#用于保存模型权重
         torch.save(state_dict, path)
 
 
-def patch_first_conv(model, new_in_channels, default_in_channels=1, pretrained=True):#修改模型中第一个卷积层的输入通道数
+def patch_first_conv(model, new_in_channels, default_in_channels=1, pretrained=True):
     """Change first convolution layer input channels.
     In case:
         in_channels == 1 or in_channels == 2 -> reuse original weights
