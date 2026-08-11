@@ -5,7 +5,7 @@ from .image_process import frac_mask_to_coord
 import numpy as np
 
 
-class IoU(base.Metric):#定义计算交并比的类
+class IoU(base.Metric):
     __name__ = 'iou_score'
 
     def __init__(self, eps=1e-7, threshold=0.5, activation=None, ignore_channels=None, **kwargs):
@@ -25,7 +25,7 @@ class IoU(base.Metric):#定义计算交并比的类
         )
 
 
-class Fscore(base.Metric):#定义计算 F分数的类
+class Fscore(base.Metric):
 
     def __init__(self, beta=1, eps=1e-7, threshold=0.5, activation=None, ignore_channels=None, **kwargs):
         super().__init__(**kwargs)
@@ -46,7 +46,7 @@ class Fscore(base.Metric):#定义计算 F分数的类
         )
 
 
-class Accuracy(base.Metric):#定义计算准确率的类
+class Accuracy(base.Metric):
 
     def __init__(self, threshold=0.5, activation=None, ignore_channels=None, **kwargs):
         super().__init__(**kwargs)
@@ -64,7 +64,7 @@ class Accuracy(base.Metric):#定义计算准确率的类
         )
 
 
-class Recall(base.Metric):#定义计算召回率的类
+class Recall(base.Metric):
 
     def __init__(self, eps=1e-7, threshold=0.5, activation=None, ignore_channels=None, **kwargs):
         super().__init__(**kwargs)
@@ -84,7 +84,7 @@ class Recall(base.Metric):#定义计算召回率的类
         )
 
 
-class Precision(base.Metric):#定义计算精确率的类
+class Precision(base.Metric):
 
     def __init__(self, eps=1e-7, threshold=0.5, activation=None, ignore_channels=None, **kwargs):
         super().__init__(**kwargs)
@@ -104,7 +104,7 @@ class Precision(base.Metric):#定义计算精确率的类
         )
 
 
-class Specificity(base.Metric):#定义计算特异性的类
+class Specificity(base.Metric):
 
     def __init__(self, eps=1e-7, threshold=0.5, activation=None, ignore_channels=None, **kwargs):
         super().__init__(**kwargs)
