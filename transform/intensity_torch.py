@@ -13,7 +13,7 @@ import numbers
 from torch.nn import functional as F
 
 
-class GaussianSmoothing(nn.Module):#高斯平滑滤波器
+class GaussianSmoothing(nn.Module):
     """
     Apply gaussian smoothing on a
     1d, 2d or 3d tensor. Filtering is performed seperately for each channel
@@ -77,7 +77,7 @@ class GaussianSmoothing(nn.Module):#高斯平滑滤波器
         return self.conv(input, weight=self.weight, groups=self.groups, padding=self.padding)
 
 
-class RandomBlur(nn.Module):#随机模糊
+class RandomBlur(nn.Module):
     """
 
     """
@@ -104,7 +104,7 @@ class RandomBlur(nn.Module):#随机模糊
         return t_image
 
 
-class RandomGamma(nn.Module):#随机伽马变换
+class RandomGamma(nn.Module):
     """
 
     """
@@ -133,7 +133,7 @@ class RandomGamma(nn.Module):#随机伽马变换
         return t_image
 
 
-class RandomNoise(nn.Module):#随机噪声
+class RandomNoise(nn.Module):
     """
 
     """
