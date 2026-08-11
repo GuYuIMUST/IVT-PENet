@@ -10,7 +10,7 @@ import random
 import numpy as np
 
 
-class RandomBlur(AbstractTransform):#在图像上应用高斯模糊
+class RandomBlur(AbstractTransform):
     """
 
     """
@@ -34,7 +34,7 @@ class RandomBlur(AbstractTransform):#在图像上应用高斯模糊
         return sample
 
 
-class RandomGamma(AbstractTransform):#这个类用于在图像上应用随机伽马变换
+class RandomGamma(AbstractTransform):
     """
 
     """
@@ -60,7 +60,7 @@ class RandomGamma(AbstractTransform):#这个类用于在图像上应用随机伽
         return sample
 
 
-class RandomNoise(AbstractTransform):#在图像上添加随机噪声
+class RandomNoise(AbstractTransform):
     """
 
     """
