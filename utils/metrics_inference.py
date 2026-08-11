@@ -3,8 +3,7 @@ from .image_process import show_box3
 import numpy as np
 import torch
 
-#定义了几个用于计算3D边界框检测性能指标的类和函数
-def calc_iou_3d(a, b):#计算3D边界框的交并比
+def calc_iou_3d(a, b):
     area = (b[:, 3] - b[:, 0]) * (b[:, 4] - b[:, 1]) * (b[:, 5] - b[:, 2])
 
     iz = torch.min(torch.unsqueeze(a[:, 3], dim=1), b[:, 3]) - torch.max(torch.unsqueeze(a[:, 0], 1), b[:, 0])
@@ -25,7 +24,7 @@ def calc_iou_3d(a, b):#计算3D边界框的交并比
     return IoU
 
 
-class RecallW(base.Metric):#计算召回率
+class RecallW(base.Metric):
 
     def __init__(self, iou_thresh=0.2, prob_thresh=0.5):
         super().__init__()
@@ -56,7 +55,7 @@ class RecallW(base.Metric):#计算召回率
         return recall
 
 
-class FPW(base.Metric):#计算假阳性率
+class FPW(base.Metric):
 
     def __init__(self, iou_thresh=0.2, prob_thresh=0.5):
         super().__init__()
@@ -88,7 +87,7 @@ class FPW(base.Metric):#计算假阳性率
         return FP
 
 
-class PrecisionW(base.Metric):#计算精确率
+class PrecisionW(base.Metric):
 
     def __init__(self, iou_thresh=0.2, prob_thresh=0.5):
         super().__init__()
@@ -120,7 +119,7 @@ class PrecisionW(base.Metric):#计算精确率
         return precision
 
 
-class FScoreW(base.Metric):#计算F分数
+class FScoreW(base.Metric):
 
     def __init__(self, iou_thresh=0.2, prob_thresh=0.5, beta=1):
         super().__init__()
