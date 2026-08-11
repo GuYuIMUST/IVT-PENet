@@ -86,3 +86,14 @@ Run train_enhancement.py for training. Use the argument –unique_name to give a
 Run evaluation.py to evaluate and plot FROC curve. Change pred_root in line 279 to the directory of your result, i.e. ‘IVT-PENet/pred_itk/unique_name_sth50’.
 
 The guidance and the code may still have some small errors. Feel free to contact me by email or issue.
+# Citation:
+@article{DONG2027133938,
+title = {IVT-PENet: An information-gated and variance-enhanced U-net with direction-aware positional encoding and channel-spatial transformer for pulmonary embolism detection},
+journal = {Expert Systems with Applications},
+volume = {333},
+pages = {133938},
+year = {2027},
+issn = {0957-4174},
+doi = {10.1016/j.eswa.2026.133938},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417426028459},
+author = {Hao Dong and Yu Gu and Qinqin Xie and Lidong Yang and Baohua Zhang and Jianjun Li and Xin Liu and Juan Hao and Siyuan Tang and Lei Qi and Xuke Fu and Qun He}
