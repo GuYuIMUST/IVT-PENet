@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-对图像进行填充
+# -*- coding: utf-8 -*-
 from __future__ import print_function, division
 
 import json
