@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-class LabelToAnnot(AbstractTransform):#将标签转换为注释格式
+class LabelToAnnot(AbstractTransform):
     def __init__(self, min_area=2):
         """
         """
@@ -37,7 +37,7 @@ class LabelToAnnot(AbstractTransform):#将标签转换为注释格式
         return sample
 
 
-class LabelClose(AbstractTransform):#对标签进行关闭操作，用于填充小孔洞
+class LabelClose(AbstractTransform):
     def __init__(self):
         """
         """
@@ -52,7 +52,7 @@ class LabelClose(AbstractTransform):#对标签进行关闭操作，用于填充�
         return sample
 
 
-class RemoveSmall(AbstractTransform):#这个类移除标签中的小对象
+class RemoveSmall(AbstractTransform):
     def __init__(self, min_area=2):
         """
         """
@@ -67,7 +67,7 @@ class RemoveSmall(AbstractTransform):#这个类移除标签中的小对象
         return sample
 
 
-class MaskToLabel(AbstractTransform):#这个类将掩码转换为标签
+class MaskToLabel(AbstractTransform):
     def __init__(self):
         pass
 
@@ -77,7 +77,7 @@ class MaskToLabel(AbstractTransform):#这个类将掩码转换为标签
         return sample
 
 
-class MaskToImage(AbstractTransform):#将掩码转换为图像
+class MaskToImage(AbstractTransform):
     def __init__(self):
         pass
 
