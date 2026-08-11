@@ -10,8 +10,7 @@ import numpy as np
 from scipy.spatial.distance import cdist
 import time
 
-#增强的训练和验证框架
-class TrainEpoch:#模型的训练周期
+class TrainEpoch:
 
     def __init__(self, model, loss, det_metrics, seg_metrics, optimizer, stage_name='train', device='cpu',
                  noise=None, grad_fn=None, verbose=True):
@@ -121,7 +120,7 @@ class TrainEpoch:#模型的训练周期
         return logs
 
 
-class ValidEpoch:#模型的验证周期
+class ValidEpoch:
 
     def __init__(self, model, loss, det_metrics, seg_metrics, stage_name='valid', device='cpu',
                  verbose=True):
