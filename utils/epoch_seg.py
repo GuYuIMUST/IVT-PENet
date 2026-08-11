@@ -10,7 +10,6 @@ import numpy as np
 from scipy.spatial.distance import cdist
 import time
 
-#分割任务的训练和验证
 class TrainEpoch:
 
     def __init__(self, model, loss, seg_metrics, optimizer, stage_name='train', device='cpu',
