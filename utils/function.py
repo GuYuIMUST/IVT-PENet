@@ -1,6 +1,5 @@
 import torch
 
-#定义了多种图像分割模型性能评估函数
 def _take_channels(*xs, ignore_channels=None):
     if ignore_channels is None:
         return xs
@@ -17,7 +16,7 @@ def _threshold(x, threshold=None):
         return x
 
 
-def iou(pr, gt, eps=1e-7, threshold=None, ignore_channels=None):#交并比
+def iou(pr, gt, eps=1e-7, threshold=None, ignore_channels=None):
     """Calculate Intersection over Union between ground truth and prediction
     Args:
         pr (torch.Tensor): predicted tensor
@@ -39,7 +38,7 @@ def iou(pr, gt, eps=1e-7, threshold=None, ignore_channels=None):#交并比
 jaccard = iou
 
 
-def f_score(pr, gt, beta=1, eps=1e-7, threshold=None, ignore_channels=None):#F分数
+def f_score(pr, gt, beta=1, eps=1e-7, threshold=None, ignore_channels=None):
     """Calculate F-score between ground truth and prediction
     Args:
         pr (torch.Tensor): predicted tensor
@@ -63,7 +62,7 @@ def f_score(pr, gt, beta=1, eps=1e-7, threshold=None, ignore_channels=None):#F�
     return score
 
 
-def accuracy(pr, gt, threshold=0.5, ignore_channels=None, weight=None):#准确率（计算预测结果与真实标注之间的准确率）
+def accuracy(pr, gt, threshold=0.5, ignore_channels=None, weight=None):
     """Calculate accuracy score between ground truth and prediction
     Args:
         pr (torch.Tensor): predicted tensor
@@ -83,7 +82,7 @@ def accuracy(pr, gt, threshold=0.5, ignore_channels=None, weight=None):#准确�
     return score
 
 
-def precision(pr, gt, eps=1e-7, threshold=None, ignore_channels=None, weight=None):#精确率（预测为阳性的样本中真阳性比例）
+def precision(pr, gt, eps=1e-7, threshold=None, ignore_channels=None, weight=None):
     """Calculate precision score between ground truth and prediction
     Args:
         pr (torch.Tensor): predicted tensor
@@ -107,7 +106,7 @@ def precision(pr, gt, eps=1e-7, threshold=None, ignore_channels=None, weight=Non
     return score
 
 
-def recall(pr, gt, eps=1e-7, threshold=None, ignore_channels=None, weight=None):#召回率（所有真阳性的样本中被预测为阳性的比例）
+def recall(pr, gt, eps=1e-7, threshold=None, ignore_channels=None, weight=None):
     """Calculate Recall between ground truth and prediction
     Args:
         pr (torch.Tensor): A list of predicted elements
