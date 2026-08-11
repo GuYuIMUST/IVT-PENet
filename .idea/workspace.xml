@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c828b69-d1ba-46a4-af0b-aca7d56382f4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/models/target domain_test.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2D7Nb3ripwhVTAcoy4sUBn9otYW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.003 大核分组门控注意力(CVPR2024).executor&quot;: &quot;Run&quot;,
+    &quot;Python.003 深度可分离卷积提取水平、垂直、方形区域的特征.executor&quot;: &quot;Run&quot;,
+    &quot;Python.004 利用欧拉公式捕获垂直、水平、通道特征.executor&quot;: &quot;Run&quot;,
+    &quot;Python.005 在模块加入水平竖直上的位置编码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.006 在残差结构上增加通道分解与特征缩放.executor&quot;: &quot;Run&quot;,
+    &quot;Python.009 基于信息量的门控掩码机制.executor&quot;: &quot;Run&quot;,
+    &quot;Python.010 角度位置编码.executor&quot;: &quot;Run&quot;,
+    &quot;Python.012 边缘信息提取.executor&quot;: &quot;Run&quot;,
+    &quot;Python.014 去中心化Transfomer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.017 基于Scharr算子的边缘特征增强.executor&quot;: &quot;Run&quot;,
+    &quot;Python.019 通过where来强化或者抑制.executor&quot;: &quot;Run&quot;,
+    &quot;Python.048 Mamba Enhancement Fusion Module（A会 2024 改进 自研）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.061 Multiscale Feature Fusion Module（2024TOP）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.062 Multiscale Difference Fusion Module（2024TOP）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.068 Dynamic Feature Fusion（2024 3D任务）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.079 Feature Enhancement Module（遥感 2024一区）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.109 LocalAttention（ACCV 2024）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.122 CPAM（2024 如何灌水）.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.124 Feature Refinement Feed-forward Network（CVPR 2024）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.126 Global_Spatial_Attention（TETCI 2024）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.136 Convolution Linear Fusion Transformer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.136 Convolution Linear Fusion Transformer（ICME 2023）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.138 Gated Bottleneck Convolution（CVPR 2025）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.141 Modulation_Fusion_Module（CVPR 2024）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.145 Progressive_Channel_wise_Self_Attention（2025 JCR一区TOP）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.148 SequenceShuffleAttention（CVPR 2025）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.160 Feature Complementary Mapping Module（AAAI 2025）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.161 Multi-Kernel Perception Unit（AAAI 2025）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.162 Local Mixing Module（2025 一区TOP）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.163 Global Mixing Module（2025 一区TOP）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.164 KernelSelectiveFusionAttention（2025 一区TOP）.executor&quot;: &quot;Run&quot;,
+    &quot;Python.168 Multi-Scale Attention Aggregation（CVPR 2025）.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.180 Sparse Prompt Channel Self-Attention（ACM 2025）.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.182 Hierarchical Dual-Path Attention (ICCV 2025).executor&quot;: &quot;Run&quot;,
+    &quot;Python.184 Convolution and Attention Fusion Module（TOP）.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.190 KAN-based spectral attention block(ICASSP 2025).executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_3_2_Channel_Spatial_Fusion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_2_CoTAttention.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4_4_MLLAttention.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6_1_Gated_Fusion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6_2_MSFblock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6_4_MFEblock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6_8_TFF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ACA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ASPP4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ASPP5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ASPP6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CAFM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CASAB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CBAM.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CBMA_ASPP.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CCA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CCAF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CPAM.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CPAM3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CrossFusion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DFF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DHWFeatureMLp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DPSA动态池化协同注意力模块 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DPSA动态池化协同注意力模块.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EFC.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EFF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EFF2d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EMA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.EUCB.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.FCM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FUNPE shuanse jieguotu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Froc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Froc2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GCAM门控卷积注意力特征增强模块.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GCSA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GGCA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GLFA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GLFA全局和局部特征聚合模块.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Global PositionEncoding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HDPA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.HLFAE高低频特征自适应增强模块.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HPA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Heatmap.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IG-VEASPP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Local PositionEmcoding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MECS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MEFA多尺度有效特征聚合模块.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MEFM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MFMSA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MK-Unet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MKDA(aspp).executor&quot;: &quot;Run&quot;,
+    &quot;Python.MKDA多尺度大核分解注意力.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MSASPP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MSEA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MSEA多尺度特征增强聚合模块.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MSF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Maspp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PEconv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PositionEncoding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QRcode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RCSSC.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SCAM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SCSE.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Swin-Unet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UCB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UNet++.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aspp+ (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.basicblock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.canshu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coordinate.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.cpam2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dj_zhengyong.executor&quot;: &quot;Run&quot;,
+    &quot;Python.down.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encoder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.evaluation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.evaluationduibi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fusion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guyu pe shaixuan.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guyu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inference_stage1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.label.executor&quot;: &quot;Run&quot;,
+    &quot;Python.langbo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.look.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lung mask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_xiaorong_mask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.msf2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.msf3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.result.executor&quot;: &quot;Run&quot;,
+    &quot;Python.resultda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_tta.executor&quot;: &quot;Run&quot;,
+    &quot;Python.target domain_test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_aanet b4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_aanet.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.trans FUMPE label.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trans label.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trans_FUMPE.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tsa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.up.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.visiomask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.visual.executor&quot;: &quot;Run&quot;,
+    &quot;Python.visual2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.warm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xiaorongmask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xiaorongvisiomask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.去中心化Transform.executor&quot;: &quot;Run&quot;,
+    &quot;Python.基于信息量的自适应门控融合模块.executor&quot;: &quot;Run&quot;,
+    &quot;Python.瓶颈.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/duaanet&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MH\AANet-master\PEData\processed_itk" />
+      <recent name="$PROJECT_DIR$/pred_itk" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/save_models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Heatmap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AANet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heatmap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="AANet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="result" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AANet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="resultda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AANet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resultda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_aanet b4" type="PythonConfigurationType" factoryName="Python">
+      <module name="AANet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_aanet.py" />
+      <option name="PARAMETERS" value="-b 4" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xiaorongmask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AANet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xiaorongmask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xiaorongvisiomask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AANet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xiaorongvisiomask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.train_aanet b4" />
+      <item itemvalue="Python.Heatmap" />
+      <item itemvalue="Python.result" />
+      <item itemvalue="Python.resultda" />
+      <item itemvalue="Python.xiaorongmask" />
+      <item itemvalue="Python.xiaorongvisiomask" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.xiaorongmask" />
+        <item itemvalue="Python.xiaorongvisiomask" />
+        <item itemvalue="Python.result" />
+        <item itemvalue="Python.resultda" />
+        <item itemvalue="Python.Heatmap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c828b69-d1ba-46a4-af0b-aca7d56382f4" name="Changes" comment="" />
+      <created>1660046230915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660046230915</updated>
+      <workItem from="1660046232946" duration="7532000" />
+      <workItem from="1660109910734" duration="4273000" />
+      <workItem from="1660118818074" duration="10192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="x0" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
