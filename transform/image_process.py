@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-函数定义文件用于裁剪
+# -*- coding: utf-8 -*-
 from __future__ import absolute_import, print_function
 
 import numpy as np
