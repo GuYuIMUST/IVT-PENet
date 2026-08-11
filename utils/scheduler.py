@@ -1,7 +1,6 @@
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torch.optim.optimizer import Optimizer
 
-#定义了一个学习率调度器（LRScheduler）的基类以及一个具体的学习率预热（GradualWarmupScheduler）策略
 def change_lr(optimizer, lr):
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
