@@ -1,8 +1,7 @@
 # IVT-PENet
 An Information-Gated and Variance-Enhanced U-Net with Direction-Aware Positional Encoding and Channel-Spatial Transformer for Pulmonary Embolism Detection
 
-![image](https://github.com/GuYuIMUST/IVT-PENet/blob/48a47cf00ffbb9fb21ea9079f88832209d129a37/figure/fig11.jpg)
-![image](https://github.com/GuYuIMUST/IVT-PENet/blob/939b5487e98be8ecd5a9acdfbda532ecaca815ce/.idea/Fig.2.tif)
+![image](https://github.com/GuYuIMUST/IVT-PENet/blob/4aee6e78e14d52ad93d5c6bb45dd0a0678fe26dc/.idea/Fig.2.jpg)
 
 The full implementation will be released after the associated paper is accepted.
 # Overview
