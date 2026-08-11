@@ -3,7 +3,6 @@ import torch
 from torch.optim.optimizer import Optimizer
 from math import inf
 
-# 定义AdamW 的优化器类
 class AdamW(Optimizer):
     r"""Implements AdamW algorithm.
 
