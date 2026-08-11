@@ -1,14 +1,14 @@
 # IVT-PENet
-An Information-Gated and Variance-Enhanced U-Net with Direction-Aware Positional Encoding and Channel-Spatial Transformer for Pulmonary Embolism Segmentation and Detection
+An Information-Gated and Variance-Enhanced U-Net with Direction-Aware Positional Encoding and Channel-Spatial Transformer for Pulmonary Embolism Detection
 
 ![image](https://github.com/GuYuIMUST/IVT-PENet/blob/48a47cf00ffbb9fb21ea9079f88832209d129a37/figure/fig11.jpg)
 
 The full implementation will be released after the associated paper is accepted.
 # Overview
 
-**IVT-PENet** is a unified deep learning framework for pulmonary embolism detection and segmentation in CTPA images.
+**IVT-PENet** is a unified deep learning framework for pulmonary embolism detection in CTPA images.
 
-Built upon a 3D U-Net architecture, the model is designed to effectively handle the challenges of small emboli, low contrast, and complex three-dimensional vascular structures. By integrating enhanced feature representation and contextual modeling mechanisms, IVT-PENet achieves strong performance on the CAD-PE dataset, demonstrating reliable embolus localization and accurate volumetric segmentation.
+Built upon a 3D U-Net architecture, the model is specifically designed to tackle the challenges arising from small embolic lesions, low contrast, and intricate three-dimensional vascular structures. Through the integration of enhanced feature representation and contextual modeling mechanisms, IVT-PENet not only achieves outstanding performance on the CAD-PE dataset but also exhibits robust embolus localization capability when externally validated on the FUMPE dataset.
 
 # Key Innovations
 **1.Direction-Aware Positional Encoding (DAPE)** 
@@ -46,6 +46,20 @@ Built upon a 3D U-Net architecture, the model is designed to effectively handle 
     This strengthens global contextual understanding with minimal overhead.
     
 # Main Results
+The Sensitivity and FROC score of IVT-PENet at ε=0, 2, and 5 mm for each FP/S on the CAD-PE dataset, as well as the AUC score.
+| Tolerance | 0.125 FP/S | 0.25 FP/S | 0.5 FP/S | 1 FP/S | 2 FP/S | 4 FP/S | 8 FP/S | FROC score | AUC |
+|-----------|------------|-----------|----------|--------|--------|--------|--------|------------|-----|
+| ε = 0 mm | 0.592 | 0.623 | 0.715 | 0.738 | 0.746 | 0.815 | 0.815 | 0.721 | 0.770 |
+| ε = 2 mm | 0.658 | 0.772 | 0.798 | 0.816 | 0.842 | 0.895 | 0.895 | 0.812 | 0.851 |
+| ε = 5 mm | 0.711 | 0.811 | 0.833 | 0.856 | 0.867 | 0.911 | 0.911 | 0.843 | 0.875 |
+
+The Sensitivity and FROC score of IVT-PENet at ε=0, 2, and 5 mm for each FP/S on the FUMPE dataset, as well as the AUC score.
+| Tolerance | 0.125 FP/S | 0.25 FP/S | 0.5 FP/S | 1 FP/S | 2 FP/S | 4 FP/S | 8 FP/S | FROC score | AUC |
+|-----------|------------|-----------|----------|--------|--------|--------|--------|------------|-----|
+| ε = 0 mm | 0.341 | 0.472 | 0.695 | 0.805 | 0.902 | 0.915 | 0.915 | 0.716 | 0.847 |
+| ε = 2 mm | 0.406 | 0.507 | 0.768 | 0.855 | 0.928 | 0.942 | 0.942 | 0.764 | 0.881 |
+| ε = 5 mm | 0.636 | 0.697 | 0.818 | 0.909 | 0.970 | 0.970 | 0.970 | 0.853 | 0.930 |
+
 Sensitivity of different network models at ε=0, 2,and5 mm
 | Model | ε=0 | ε=2 | ε=5 |
 |------|------------------|------------------|------------------|
@@ -59,17 +73,6 @@ Sensitivity of different network models at ε=0, 2,and5 mm
 | TSNet | 0.761 | 0.85 | 0.878 |
 | **IVT-PENet (Ours)** | **0.815** | **0.895** | **0.911** |
 
-Comparison of Dice and HD95 values across different segmentation networks
-| Model | Dice | HD95 |
-|------|------------------|------------------|
-| TransUNet | 69.98 | 25.15±29.7 |
-| Swin Unet | 67.49 | 16.56±36.13 |
-| UNet++ | 79.25 | 14.35±19.42 |
-| AANet | 77.86 | 11.60±15.77 |
-| CHWS-UNet | 80.59 | 21.60±24.31 |
-| TSNet | 82.57 | 19.69±25.54 |
-| **IVT-PENet (Ours)** | **83.30** | **5.44±7.15** |
-
 Attention Heatmaps of CSAT
 
 ![image](https://github.com/GuYuIMUST/IVT-PENet/blob/ccb9a4871515a19e62be63244cfe7153b9795af9/figure/fig2.jpg)
@@ -80,6 +83,8 @@ Attention Heatmaps of CSAT
 2.Download CAD-PE dataset from https://ieee-dataport.org/open-access/cad-pe Put CTPA images, e.g. 001.nrrd, in ‘IVT-PENet/PEData/CAD_PE_data/image’. Put PE labels, e.g. 001RefStd.nrrd, in ‘IVT-PENet/PEData/CAD_PE_data/label’.
 
 3.Run nifty_preprocess.py to preprocess data. The code will use lung masks to crop the lung region ROI in the CTPA images and labels, and save them back to nifty file in ‘./PEData/processed_itk’. The image size will be smaller for faster loading in training.
+
+4.Download the FUMPE dataset at https://drive.google.com/file/d/1hOmQ9s8eE__nqIe3lpwGYoydR4_UNRrU/view?usp=drive_link. Set it up identically to the CAD-PE dataset. For external validation, just swap the dataset inference.py and evaluation.py
 # Training and Inference:
 Run train_enhancement.py for training. Use the argument –unique_name to give a name. At the end of training, the code calls the inference.py automatically, and save the result in ‘IVT-PENet/pred_itk/unique_name_sth50’. You may want to train several times with different seeds. The official evaluation protocol of CAD-PE is a little bit unreasonable. If two near ground-truth PEs are detected by one connected predicted PE, only one ground-truth is counted as TP, and vice-versa. Therefore, small randomness, that causes two near PEs connected to one or one PE breaked to two, will cause relatively big difference in FROC curve.
 # Evaluation:
@@ -88,12 +93,21 @@ Run evaluation.py to evaluate and plot FROC curve. Change pred_root in line 279 
 The guidance and the code may still have some small errors. Feel free to contact me by email or issue.
 # Citation:
 @article{DONG2027133938,
+
 title = {IVT-PENet: An information-gated and variance-enhanced U-net with direction-aware positional encoding and channel-spatial transformer for pulmonary embolism detection},
+
 journal = {Expert Systems with Applications},
+
 volume = {333},
+
 pages = {133938},
+
 year = {2027},
+
 issn = {0957-4174},
+
 doi = {10.1016/j.eswa.2026.133938},
+
 url = {https://www.sciencedirect.com/science/article/pii/S0957417426028459},
+
 author = {Hao Dong and Yu Gu and Qinqin Xie and Lidong Yang and Baohua Zhang and Jianjun Li and Xin Liu and Juan Hao and Siyuan Tang and Lei Qi and Xuke Fu and Qun He}
