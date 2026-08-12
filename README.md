@@ -3,7 +3,6 @@ An Information-Gated and Variance-Enhanced U-Net with Direction-Aware Positional
 
 ![image](https://github.com/GuYuIMUST/IVT-PENet/blob/4aee6e78e14d52ad93d5c6bb45dd0a0678fe26dc/.idea/Fig.2.jpg)
 
-The full implementation will be released after the associated paper is accepted.
 # Overview
 
 **IVT-PENet** is a unified deep learning framework for pulmonary embolism detection in CTPA images.
